@@ -67,7 +67,9 @@ public class PlayerBehaviour : MonoBehaviour
         if (!hit){
             return false;
         }
-        Debug.DrawRay(transform.position + new Vector3(FRONT_CAR_LENGTH * transform.localScale.x,0f,0f), transform.TransformDirection(Vector3.right) * (outRay.distance - FRONT_CAR_LENGTH * transform.localScale.x), Color.yellow);
+
+        Color drawColor = this.underEmergencyBraking ? Color.red : Color.yellow;
+        Debug.DrawRay(transform.position + new Vector3(FRONT_CAR_LENGTH * transform.localScale.x,0f,0f), transform.TransformDirection(Vector3.right) * (outRay.distance - FRONT_CAR_LENGTH * transform.localScale.x), drawColor);
 
         float collisionDistance = outRay.distance;
         float simThrottle = currentThrottle;
