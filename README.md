@@ -9,6 +9,7 @@ The implementation is based off this model differential equation:
 ![](https://github.com/danielbatchford/CarEmergencyBrakeImplementation/blob/master/deEquation.png)
 
 An iterative solution was formed based off the above equation:
+
 ![](https://github.com/danielbatchford/CarEmergencyBrakeImplementation/blob/master/iterEquation.png)
 
 ## Controls
