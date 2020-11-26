@@ -15,7 +15,7 @@ An iterative solution was formed based off the above equation:
 
 ## Controls
 `Space` to apply the throttle.
-`B` to apple the brakes.
+`B` to apply the brakes.
 
 ## Credits
 [Unity](https://unity.com/)
