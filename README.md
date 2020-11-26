@@ -1,20 +1,19 @@
 # A Vehicle Emergency Brake Implementation
 
 ## Example
-
+![](https://github.com/danielbatchford/CarEmergencyBrakeImplementation/blob/master/example.gif)
 ## Implementation
 This control software was implemented in a 3D game engine, Unity. It model's a linear motion of both the throttle and brake pedals with `v = stuff`
-- based off this model (DE)
-- image here
+
+The implementation is based off this model differential equation:
+![](https://github.com/danielbatchford/CarEmergencyBrakeImplementation/blob/master/deEquation.png)
+
+An iterative solution was formed based off the above equation:
+![](https://github.com/danielbatchford/CarEmergencyBrakeImplementation/blob/master/iterEquation.png)
 
 ## Controls
 `Space` to apply the throttle.
 `B` to apple the brakes.
-
-## Results
-- gif
-- explain gif - stuff can stop regardless of the speed
-
 
 ## Credits
 [Unity](https://unity.com/)
